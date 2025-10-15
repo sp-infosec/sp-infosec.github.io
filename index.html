@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgi Güvenliği Uyarısı - Phishing Simülasyonu</title>
+    <style>
+        /* Genel Stil ve Kurumsal Renkler */
+        :root {
+            --primary-color: #004d99; /* Kurumsal Mavi (Örnek) */
+            --secondary-color: #f0f0f0; /* Açık Gri */
+            --text-color: #333;
+            --danger-color: #cc0000;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .content-box {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        h1 {
+            color: var(--danger-color);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .simulation-info p {
+            font-size: 1.1em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .security-guarantee {
+            background-color: #e6f7ff; /* Açık Mavi */
+            border: 1px solid #b3e0ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .tips-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tips-list li {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="%23004d99"><path d="M9 16.2l-3.5-3.5a.984.984 0 0 1 0-1.4l1.4-1.4a.984.984 0 0 1 1.4 0L9 12.1l6.1-6.1a.984.984 0 0 1 1.4 0l1.4 1.4a.984.984 0 0 1 0 1.4l-7.5 7.5a.984.984 0 0 1-1.4 0z"/></svg>') no-repeat left 5px;
+            background-size: 16px;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+            color: var(--text-color);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://sipay.com.tr/wp-content/uploads/2024/10/logo_new.svg" alt="Şirket Logosu" class="logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-box">
+            <h1>Yakalandın! Neyse ki bu bir simülasyondu.</h1>
+            <div class="simulation-info">
+                <p><strong>Tıklamış olduğunuz bu bağlantı, bilgi güvenliği ekibimiz tarafından gerçekleştirilen bir <u>phishing simülasyonu</u>nun parçasıdır.</strong></p>
+                <p>Bu simülasyon, siber saldırıların ne kadar gerçekçi olabileceğini ve tıklamadan önce iki kez düşünmenin önemini göstermek için tasarlanmıştır.</p>
+            </div>
+
+            <div class="security-guarantee">
+                <h3>Merak etme, <u>bu kez parolan güvende</u>!</h3>
+                <p>Bu simülasyon kapsamında herhangi bir kullanıcı adı, parola veya hassas bilgi <u>kayıt altına alınmamıştır</u>. Amacımız yalnızca farkındalığınızı artırmaktır.</p>
+            </div>
+
+            <h2>Neden Dikkatli Olmalıyız?</h2>
+            <p>Phishing (Oltalama), siber suçluların size güvenilir bir kaynaktan geliyormuş gibi görünen e-postalar, SMS'ler veya mesajlar göndererek kişisel bilgilerinizi (parola, kredi kartı bilgileri vb.) çalmaya çalıştığı bir saldırı türüdür. Bir anlık dikkatsizlik, hem kişisel hem de kurumsal veriler için büyük riskler oluşturabilir.</p>
+
+            <h2>Phishing Saldırılarından Korunma İpuçları</h2>
+            <p>Bilgi güvenliğiniz için atabileceğiniz temel adımlar şunlardır:</p>
+            
+            <ul class="tips-list">
+                <li><b>Göndericiyi Kontrol Edin:</b> E-posta adresinin, şirketinizin veya kurumun resmi adresi olduğundan emin olun. Küçük harf hataları veya farklı domainler (alan adları) olup olmadığını inceleyin.</li>
+                <li><b>Bağlantıları İnceleyin:</b> Bir linke tıklamadan önce farenizi üzerine getirin (mobil cihazda basılı tutun) ve tarayıcının sol alt köşesinde veya açılan pencerede gösterilen adresi kontrol edin. URL şüpheli veya resmi adresten farklı görünüyorsa <u>tıklamayın</u>.</li>
+                <li><b>Acil Durum Mesajlarına Dikkat:</b> Saldırganlar genellikle "Hesabınız askıya alındı" veya "Hemen şifrenizi değiştirin" gibi aciliyet belirten veya tehdit içeren ifadeler kullanır. Sakin kalın ve doğrudan resmi kanallar üzerinden teyit edin.</li>
+                <li><b>Asla Parola Göndermeyin:</b> Hiçbir yasal kuruluş (bankalar, e-posta sağlayıcıları, şirketinizin herhangi bir ekibi) sizden e-posta veya mesaj yoluyla parolanızı istemez.</li>
+                <li><b>Yazım Hatalarına Dikkat:</b> Phishing e-postaları genellikle kötü dil bilgisi veya yazım hataları içerir. Bu tür hatalar önemli bir uyarı işaretidir.</li>
+                <li><b>Güçlü Parola Kullanın ve MFA'yı Aktif Edin:</b> Farklı hesaplarınız için karmaşık ve benzersiz parolalar kullanın. Mümkün olan her yerde Çoklu Faktörlü Kimlik Doğrulama (MFA) özelliğini etkinleştirin.</li>
+            </ul>
+
+            <p><strong>Lütfen bu deneyimi ciddiye alın ve gelecekteki olası tehlikelere karşı hazırlıklı olun.</strong> Bilgi Güvenliği, hepimizin sorumluluğundadır.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2019-2025 Sipay Elektronik Para ve Ödeme Hizmetleri A.Ş. - Bilgi Güvenliği Ekibi - Bu bir farkındalık simülasyonudur.</p>
+    </footer>
+</body>
+</html>
